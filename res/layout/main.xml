@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:padding="30dip"
+        android:text="@string/sms"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="300dip"
+        android:layout_height="40dip"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="获取闪讯密码" />
+
+    <Button
+        android:id="@+id/send2"
+        android:layout_width="300dip"
+        android:layout_height="40dip"
+        android:layout_alignLeft="@+id/send"
+        android:layout_below="@+id/send"
+        android:text="获取WIFI密码" />
+
+</RelativeLayout>
